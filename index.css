@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.sect-1 {
+  background-color: white;
+  width: 100%;
+  min-height: 50vh;
+  border-bottom: 8px solid lightgrey;
+}
+.sect-1 span {
+  color: rgb(67, 151, 106);
+  font-weight: 700;
+}
+.header {
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
+}
+.header p:first-of-type {
+  max-width: 540px;
+}
+.sect-2 {
+  background-color: grey;
+  width: 100%;
+  min-height: 50vh;
+  padding: 70px 0;
+}
+.sect-2 article {
+  background-color: white;
+  padding: 20px;
+  /* working? */
+  max-width: 1180px;
+  margin: auto;
+}
+.sect-2 article h1 {
+  background-color: rgb(245, 193, 66);
+  border-bottom: 10px solid goldenrod;
+  position: relative;
+  top: -15px;
+  left: -25px;
+  /* padding: clamp(8px, 3vw, 15px);
+  width: clamp(470px, 50vw, 590px);
+  font-size: clamp(1rem, 5.8vw, 2.1rem); */
+}
+/* .sect-2 article p {
+  font-size: clamp(1rem, 5.8vw, 2rem);
+} */
+@media (min-width: 320px) {
+  /* Adjustments for mobile screens */
+  .sect-1 article {
+    width: 100vw;
+    padding: 80px 35px;
+  }
+  .sect-1 article h1 {
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+  .sect-1 article p {
+    font-size: 1.39rem;
+    line-height: 1.5;
+    margin: 15px 0;
+  }
+  .sect-2 article h1 {
+    padding: 15px;
+    font-size: 2rem;
+    width: 450px;
+  }
+  .sect-2 article p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+}
+@media (min-width: 768px) {
+  /* Adjustments for tablet screens */
+  .sect-1 {
+    padding-left: 0;
+  }
+  .sect-1 article {
+    width: 550px;
+  }
+  .sect-2 article h1 {
+    width: 590px;
+    font-size: 2rem;
+  }
+  .sect-2 article p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 900px) {
+  /* Adjustments for laptop screens */
+  .sect-1 {
+    /* padding-left: 200px; */
+  }
+  .sect-1 article {
+    /* max-width: 540px; */
+    width: 100%;
+  }
+  .sect-2 article {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .sect-2 article h1 {
+    font-size: 2rem;
+    width: 550px;
+  }
+  .sect-2 article p {
+    font-size: 1.8rem;
+  }
+}
