@@ -6,6 +6,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
+  overflow: hidden;
 }
 .sect-1 {
   background-color: white;
