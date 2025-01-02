@@ -54,15 +54,15 @@ body {
 } */
 @media (min-width: 320px) {
   /* Adjustments for mobile screens */
-  .sect-1 article {
-    width: 100vw;
+  .header {
+    width: 100%;
     padding: 80px 35px;
   }
-  .sect-1 article h1 {
+  .header h1 {
     font-size: 2rem;
     margin: 50px 0;
   }
-  .sect-1 article p {
+  .header p {
     font-size: 1.39rem;
     line-height: 1.5;
     margin: 15px 0;
@@ -82,7 +82,7 @@ body {
   .sect-1 {
     padding-left: 0;
   }
-  .sect-1 article {
+  .header {
     width: 550px;
   }
   .sect-2 article h1 {
@@ -98,7 +98,7 @@ body {
   .sect-1 {
     /* padding-left: 200px; */
   }
-  .sect-1 article {
+  .header {
     /* max-width: 540px; */
     width: 100%;
   }
